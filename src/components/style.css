@@ -1,0 +1,21 @@
+.address {
+  @apply mb-1;
+}
+
+.error {
+   @apply block text-left text-sm font-medium text-red-600;
+}
+
+button {
+  transition: transform 0.3s ease-in;
+}
+
+button:hover {
+  transform: scaleY(1.2);
+}
+
+ 
+
+.sucess{
+    @apply block text-left text-sm font-medium text-green-500
+}
