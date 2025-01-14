@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 export const Contact = () => {
@@ -100,7 +100,9 @@ export const Contact = () => {
               {" "}
               SUBMIT
             </button>
-            <label className={error == 1 ? "error" : "sucess"}>{sucess} </label>
+            <label className={error === 1 ? "error" : "sucess"}>
+              {sucess}{" "}
+            </label>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Skills = ({ skills }) => {
+export const Skills = () => {
   const technicalSkills = [
     {
       category: "Database management",
